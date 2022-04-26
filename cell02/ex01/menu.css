@@ -1,0 +1,41 @@
+html{
+	background-image: url(/mnt/nfs/homes/cbeaurai/Downloads/sncf.jpg);
+	background-image: no-repeat center fixed;
+	background-size: cover;
+}
+
+div {
+	width: 400px;
+	margin: 1em auto;
+}
+
+label{
+	color:white;
+	background-color: cadetblue;
+	font-size: 50px;
+	overflow: hidden;
+	width: 400px;
+	height: 40px;
+	font-size: 18px;
+	color: #1c87c9;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 2px 2px #ccc;
+	margin: 7em;
+}
+
+select{
+	color:white;
+	background-color: cadetblue;
+	font-size: 50px;
+	overflow: hidden;
+	width: 400px;
+	height: 40px;
+	border: 1px solid #999;
+	font-size: 18px;
+	color: #1c87c9;
+	background-color: #eee;
+	border-radius: 5px;
+	box-shadow: 2px 2px #ccc;
+	margin: 1em;
+}
