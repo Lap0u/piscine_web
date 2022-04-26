@@ -1,4 +1,38 @@
-.card-title{
+table{
 	margin: auto;
-	width: 6em;
+	width: 1em;
+	font-size: 20px;
+	border: 2px grey solid;
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.socials{
+	float: left;
+	width:  30px;
+	height: 30px;
+	background-color: cover;
+}
+th{
+	padding: 10px;
+}
+
+td{
+	float: left;
+	margin: 6%
+}
+
+.title{
+	font-size: 30px;
+}
+
+.desc{
+	color:gray;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.contact{
+	color:white;
+	background-color: black;
 }
