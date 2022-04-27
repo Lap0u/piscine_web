@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+	<form onsubmit="process(this)">
+		<label id="leftlab">Enter left hand side:</label>
+		<input type="number" min="0" id="lhs" name="lhs" placeholder="Any positive number" required="required">
+		<select id="sel"required>
+			<option value="" id="option">--Select the operation--</option>
+			<option value="+" id="option">+</option>
+			<option value="-" id="option">-</option>
+			<option value="*" id="option">*</option>
+			<option value="/" id="option">/</option>
+			<option value="%" id="option">%</option>
+		</select>
+		<label id="rightlab">Enter right hand side:</label>
+		<input type="number" min="0" id="rhs" name="rhs" placeholder="Any positive number" required="required">
+		<input type="submit" value="Try me!" id="res" name="res">
+	</form>
+	<script src="calc.js"></script>
+</body>
+
+</html>
