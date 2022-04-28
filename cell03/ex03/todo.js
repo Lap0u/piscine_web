@@ -8,7 +8,8 @@ function add(){
 	x = 0;
 	while (temp == x || x == 0)
 		x = Math.floor(Math.random()*6+1);
-	console.log(x);newDiv.style.background = colors[x];
+	console.log(x);
+	newDiv.style.background = colors[x];
 	temp = x;
 	newContent = document.createTextNode('My task');
 	newDiv.appendChild(newContent);
