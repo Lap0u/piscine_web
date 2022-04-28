@@ -9,7 +9,7 @@
 
 <body>
 	<h1>42 Calculator</h1>
-	<form onsubmit="process(this)">
+	<form onsubmit="process(this);return false">
 		<label id="leftlab">Enter left hand side:</label>
 		<input type="number" min="0" id="lhs" name="lhs" placeholder="Any positive number" required="required">
 		<select id="sel" required>
