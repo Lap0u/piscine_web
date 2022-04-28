@@ -5,6 +5,9 @@ function add(){
 
 	colors = ["", "#FFFF00", "#FF00FF", "#FF8C00", "#00FFFF", "#00FF00", "#AA0080"];
 	newDiv.classList.add('new');
+	newDiv.addEventListener('click', function handleClick() {
+		this.parentNode.removeChild(this);
+	});
 	x = 0;
 	while (temp == x || x == 0)
 		x = Math.floor(Math.random()*6+1);

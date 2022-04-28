@@ -9,7 +9,7 @@ function grow() {
 	size = ball.offsetWidth
 	ball.style.width =(size+10)+"px";
 	ball.style.height =(size+10)+"px";
-	if (size + 10 == 420)
+	if (size + 10 >= 420)
 	{
 		ball.style.width ="200px";
 		ball.style.height ="200px";

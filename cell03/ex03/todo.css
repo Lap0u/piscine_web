@@ -1,6 +1,9 @@
 body {
 	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/blackb.jpg");
 	font-family: 'Ms Madi', cursive;
+	background-attachment: fixed;
+	/* background-image: no-repeat center fixed;
+	background-size: cover; */
 }
 .buttwrap {
 	margin: auto;
@@ -19,6 +22,7 @@ body {
 	vertical-align: middle;
 	line-height: 200px;
 	font-size: 30px;
+	/* position:fixed; */
 }
 
 .list{

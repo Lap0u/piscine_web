@@ -1,7 +1,7 @@
 html{
 	background-image: url(/mnt/nfs/homes/cbeaurai/Downloads/sncf.jpg);
-	/* background-image: no-repeat center fixed;
-	background-size: cover; */
+	background-image: no-repeat center fixed;
+	background-size: cover;
 }
 
 div {
