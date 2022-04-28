@@ -22,11 +22,7 @@ function process(form) {
 	alert(res);
 }
 
-function popup() {
-
-    alert("Please use me...")
-
-    setTimeout(popup, 30000);
-}
-
-popup();
+// setInterval(() => { //comm pour test
+// 	alert("Please use me...")
+//   }, 10000)
+  

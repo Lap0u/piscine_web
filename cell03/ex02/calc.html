@@ -2,20 +2,23 @@
 <html>
 
 <head>
+	<title>MyCalculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
 	<link rel="stylesheet" href="calc.css">
 </head>
 
 <body>
+	<h1>42 Calculator</h1>
 	<form onsubmit="process(this)">
 		<label id="leftlab">Enter left hand side:</label>
 		<input type="number" min="0" id="lhs" name="lhs" placeholder="Any positive number" required="required">
-		<select id="sel"required>
+		<select id="sel" required>
 			<option value="" id="option">--Select the operation--</option>
-			<option value="+" id="option">+</option>
-			<option value="-" id="option">-</option>
-			<option value="*" id="option">*</option>
-			<option value="/" id="option">/</option>
-			<option value="%" id="option">%</option>
+			<option value="+" id="option1">+</option>
+			<option value="-" id="option2">-</option>
+			<option value="*" id="option3">*</option>
+			<option value="/" id="option4">/</option>
+			<option value="%" id="option5">%</option>
 		</select>
 		<label id="rightlab">Enter right hand side:</label>
 		<input type="number" min="0" id="rhs" name="rhs" placeholder="Any positive number" required="required">

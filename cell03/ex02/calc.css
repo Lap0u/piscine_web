@@ -1,0 +1,26 @@
+body {
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/calc.jpg");
+}
+
+h1{
+	font-size: 200px;
+}
+
+form{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+label, input, select, option, ::placeholder {
+	font-size: 40px;
+	border-radius: 10px;
+	background-color: grey;
+	color: white;
+	font-family: 'Dekko';
+}
