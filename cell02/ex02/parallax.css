@@ -1,18 +1,31 @@
-img{
-	width: 100%;
-}
-
+body, html {
+	height: 100%;
+  }
+  
 .parallax {
-	height: 800px; 
+	height: 100%; 
+	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/seoul.jpg");
   
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: black;
-	color:aliceblue;
-	font-size: 7em;
+}
+
+.slide{
+	height:1000px;
+	background-color:black;
+	font-size:60px;
+	align-content: center;
+	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#un {
+	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/seoul.jpg");
+}
+
+#deux {
+	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/busan.jpg");
 }
