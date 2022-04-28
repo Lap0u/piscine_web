@@ -22,7 +22,7 @@ function process(form) {
 	alert(res);
 }
 
-// setInterval(() => { //comm pour test
-// 	alert("Please use me...")
-//   }, 10000)
+setInterval(() => { //comm pour test
+	alert("Please use me...")
+  }, 10000)
   
