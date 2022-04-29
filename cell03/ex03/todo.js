@@ -1,4 +1,5 @@
 temp = 0;
+id = 0;
 
 function add(){
 	newDiv = document.createElement("div");
@@ -9,7 +10,9 @@ function add(){
 		return ;
 	newDiv.classList.add('new');
 	newDiv.addEventListener('click', function handleClick() {
-		this.parentNode.removeChild(this);
+		conf = confirm("Confirm delete?");
+		if (conf == true)
+			this.parentNode.removeChild(this);
 	});
 	x = 0;
 	while (temp == x || x == 0)
