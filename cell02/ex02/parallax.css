@@ -4,7 +4,7 @@ body, html {
   
 .parallax {
 	height: 100%; 
-	background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/seoul.jpg");
+	/* background-image: url("/mnt/nfs/homes/cbeaurai/Downloads/seoul.jpg"); */
   
 	background-attachment: fixed;
 	background-position: center;

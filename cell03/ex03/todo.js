@@ -4,6 +4,9 @@ function add(){
 	newDiv = document.createElement("div");
 
 	colors = ["", "#FFFF00", "#FF00FF", "#FF8C00", "#00FFFF", "#00FF00", "#AA0080"];
+	sign = window.prompt("Please enter today's task!","Stay productive");
+	if (sign == "" || !sign)
+		return ;
 	newDiv.classList.add('new');
 	newDiv.addEventListener('click', function handleClick() {
 		this.parentNode.removeChild(this);
@@ -14,8 +17,8 @@ function add(){
 	console.log(x);
 	newDiv.style.background = colors[x];
 	temp = x;
-	newContent = document.createTextNode('My task');
+	newContent = document.createTextNode(sign);
 	newDiv.appendChild(newContent);
-	currentDiv = document.getElementById('ft_list');
-	currentDiv.appendChild(newDiv);
+	list = document.getElementById('ft_list');
+	list.prepend(newDiv);
 }

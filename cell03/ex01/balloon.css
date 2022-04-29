@@ -1,3 +1,9 @@
+html{
+	background-image: url(/mnt/nfs/homes/cbeaurai/Downloads/wallp.png);
+	background-image: no-repeat center fixed;
+	background-size: cover;
+}
+
 .cont{
 	position: absolute;
 	left: 50%;
@@ -8,7 +14,7 @@
 
 .bal{
 	background-color: red;
-	border-radius: 50%;
+	border-radius: 10%;
 	width: 200px;
 	height: 200px;
 }
